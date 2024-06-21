@@ -140,8 +140,36 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(friends[2]); //solve error
 // friends[2] //// Correcting the error by accessing a valid index.
 //Assiment 20 Disscord 23
-let carName = 'Audi';
-console.log("My car === Audi I preduct true ?");
-console.log(carName == 'Audi');
-console.log('Not my car === Mehran I predict false');
-console.log(carName == "Mehran");
+// let carName ='Audi'
+// console.log("My car === Audi I preduct true ?" );
+// console.log(carName == 'Audi');
+// console.log('Not my car === Mehran I predict false');
+// console.log(carName=="Mehran");
+// Assoiment 21 Disscord 24
+//Typescript 
+// Equilaty 
+let name = 'apple';
+console.log('apple===apple ture');
+console.log(name === 'apple');
+console.log('Apple === apple false ');
+console.log(name === 'Capital Alphabet false');
+//Using lower case
+console.log('Testing with upper  case');
+console.log('Apple'.toLocaleLowerCase() === 'apple');
+// using upper case
+console.log('Testing with lower case');
+console.log('apple'.toUpperCase() === 'APPLE');
+// Numarical 
+console.log(10 > 5);
+console.log(10 < 5);
+//  Tests using "and" and "or" operators
+console.log("Test and or 'and'and 'or';");
+console.log(true && false); //false 
+// Check array f0r conditional statemnt 
+let furit = ['apple', 'banana', 'orange',];
+console.log('is apple in a furit');
+console.log(furit.includes('cherry')); //false because includes ka method array ma jo valur exist karti hogi tu ture wanrna false 
+console.log(furit.includes('apple')); //ture
+// Test weather an item is not an array
+console.log('Peach is not a vegitable ');
+console.log(!furit.includes('peach'));
