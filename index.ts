@@ -220,48 +220,126 @@
 // Assoiment 21 Disscord 24
 //Typescript 
 // Equilaty 
-let name = 'apple'
-console.log('apple===apple ture');
-console.log(name==='apple');
+// let name = 'apple'
+// console.log('apple===apple ture');
+// console.log(name==='apple');
 
-console.log('Apple === apple false ');
-console.log(name==='Capital Alphabet false');
-
-
-//Using lower case
-console.log('Testing with upper  case');
-console.log('Apple'.toLocaleLowerCase()==='apple');
+// console.log('Apple === apple false ');
+// console.log(name==='Capital Alphabet false');
 
 
-
-// using upper case
-console.log('Testing with lower case');
-console.log('apple'.toUpperCase()==='APPLE');
-
-
-// Numarical 
-console.log(10>5);
-console.log(10<5);
-
-//  Tests using "and" and "or" operators
-console.log("Test and or 'and'and 'or';");
-console.log(true&&false);//false 
-
-
-// Check array f0r conditional statemnt 
-let furit =['apple','banana','orange',]
-console.log('is apple in a furit');
-console.log(furit.includes('cherry'));//false because includes ka method array ma jo valur exist karti hogi tu ture wanrna false 
-console.log(furit.includes('apple'));//ture
-
-
-// Test weather an item is not an array
-console.log('Peach is not a vegitable ');
-console.log(!furit.includes('peach'));//! agr hum yea sing use kainga to agr array ma koi value nhi ha tu true wanna false ayga 
+// //Using lower case
+// console.log('Testing with upper  case');
+// console.log('Apple'.toLocaleLowerCase()==='apple');
 
 
 
+// // using upper case
+// console.log('Testing with lower case');
+// console.log('apple'.toUpperCase()==='APPLE');
+
+
+// // Numarical 
+// console.log(10>5);
+// console.log(10<5);
+
+// //  Tests using "and" and "or" operators
+// console.log("Test and or 'and'and 'or';");
+// console.log(true&&false);//false 
+
+
+// // Check array f0r conditional statemnt 
+// let furit =['apple','banana','orange',]
+// console.log('is apple in a furit');
+// console.log(furit.includes('cherry'));//false because includes ka method array ma jo valur exist karti hogi tu ture wanrna false 
+// console.log(furit.includes('apple'));//ture
+
+
+// // Test weather an item is not an array
+// console.log('Peach is not a vegitable ');
+// console.log(!furit.includes('peach'));//! agr hum yea sing use kainga to agr array ma koi value nhi ha tu true wanna false ayga 
 
 
 
+//complete
 
+//Assiment 23
+// let car:string[]=['audi','honda','toyota','civic']
+// if(car.includes('audi')){
+//     console.log('Audi is in a car');
+// }
+// if(car.includes('honda')){
+//     console.log('honda is in a car');
+// }
+// if(car.includes('toyota')){
+//     console.log('toyota is in a car');
+// }
+// if(car.includes('civic')){
+//     console.log('civic is in a car');
+
+
+
+//complete
+
+//Assiment 24
+// let age:number=18
+// if(age<10){
+//     console.log('you are a child');
+// }else if(age<20){
+//     console.log('you are a tennager');
+// }else if(age<30){
+//     console.log('you are a young');
+// }else{
+//     console.log('you are a old');
+// }
+
+//complete
+
+// //Assiment 22 // Discord 25
+// let alien_name="green"
+// if(alien_name=="green"){
+//     console.log('your player earn 5 ponit');
+    
+// }
+// let alien_name1="yellow"
+// if(alien_name1=="yellow"){
+//     console.log('youe earn 0 point');
+    
+// }
+
+// let alien_name2="green"  // Condiion false 
+// if(alien_name2=="red"){
+//     console.log('your earn 2 point');
+// }
+//Assimet 23 // Discord 26
+//  let alian_colore= 'red'
+//  if(alian_colore=='red'){
+//     console.log('Your shoot a 5 enamy to earn a 10 points');
+//  }  else{
+//     console.log('earn a 5 points');
+    
+//  }
+
+// // condition false
+// let alian_colore1='green'
+//  if(alian_colore=='yellow'){
+//     console.log('earn a 4 points');
+    
+//  }else
+//  console.log('game over');
+ 
+
+//Assiment 24 .. Discord 27
+
+let alian_colore = 'green'
+if (alian_colore=='green') {
+    console.log('aline alive');
+}
+else if (alian_colore=='red'){
+    console.log('aline is dead');
+    
+}    
+else if (alian_colore=='yellow'){
+    console.log('aline is healing to protecd yourself');
+    
+}
