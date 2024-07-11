@@ -331,15 +331,129 @@
 
 //Assiment 24 .. Discord 27
 
-let alian_colore = 'green'
-if (alian_colore=='green') {
-    console.log('aline alive');
-}
-else if (alian_colore=='red'){
-    console.log('aline is dead');
+// let alian_colore = 'green'
+// if (alian_colore=='green') {
+//     console.log('aline alive');
+// }
+// else if (alian_colore=='red'){
+//     console.log('aline is dead');
     
-}    
-else if (alian_colore=='yellow'){
-    console.log('aline is healing to protecd yourself');
+// }    
+// else if (alian_colore=='yellow'){
+//     console.log('aline is healing to protecd yourself');
     
-}
+// }
+
+//Assiment 25 Discord 28
+// let age = 20
+
+// if(age>18){
+//     console.log('Theis eligbal person for apply visa');
+// }
+// else if (age<17){
+//     console.log('This no eligbal not person for appky visa ');
+    
+// }
+// else if (age<10){
+//     console.log('not apply for visa ');
+    
+// }
+
+// Assiment 26//  Dsicord 29 
+//  let fruit : string  []=['apple','banna','grapes','stawbry']
+
+//  if (fruit.includes('apple')){
+//        console.log('apple is my favito furit ');
+       
+//  }
+//  if (fruit.includes('banna')){
+//     console.log('banna is best for banna shake ');
+    
+//  }
+//  if (fruit.includes('grapes')){
+//    console.log('garpesh is very soure');
+//  }
+//  if (fruit.includes('stawbry')){
+//     console.log('stabery is very sweet');
+//  }
+ 
+// Assiment 27 // discord 30 
+ 
+// let name :string []=['admin','user1','user2','user3' ]
+
+// name.forEach(name=>{
+//     if(name==="admin"){
+//         console.log('Hello admin, would you like to see a status report?');
+        
+//     }else
+//     console.log(`Thank you  ${name} login again` );
+    
+// })
+// Assiment 28 // Discord 31
+// let array :string []=["apple"]
+
+// //condition check 
+// if(array.length==0){
+//   console.log( "Your array empty");
+//    }
+//    else
+//    console.log('show array data');
+   
+//Assiment 29 // Discord 32
+// let current_user : string [] = ['user1','user2','user3','admin']
+// let new_user : string [] = ['user4','user5','user6','admin']
+
+// new_user.forEach(new_user=>{
+//     if(current_user.some(current_user=>current_user.toLowerCase()===new_user.toLowerCase())){
+//         console.log(`${new_user} Need to enter a new user name`);
+        
+//     }else{
+//         console.log(`${new_user} is avalibale`);
+        
+//     }
+// })
+
+
+// Assiment 30 // Discord 33
+
+// let numbers : number []=[1,2,3,4,5]
+
+
+// numbers.forEach(number=>{
+//     let suffix = 'th'
+
+//     if(number==1)
+//         suffix= 'st'
+//     if(number==2)
+//         suffix= 'nd'
+//     if(number==3)
+//         suffix='rd'
+//     if(number==4)
+//         suffix='th'
+//     if(number==5)
+//         suffix='th'
+
+//    console.log(`${number}${suffix}`);
+    
+// })
+//Assiment 31 // Disocrd 34
+
+// Assimet 32 // Discor 35
+// let pizza : string []=['Fijita','BBQ','Pericorn']
+
+// pizza.forEach(pizza=>{
+//     console.log(`My most favoirt ${pizza}`);
+    
+// })
+
+// console.log('I realy love pizza ');
+
+
+// // Assiment 33 // Assiment 36
+// let animanl : string []=['dog','cat','tiger']
+
+// animanl.forEach(animanl=>{
+//     console.log(`A ${animanl}  would make great animal`);
+    
+// })
+// console.log('But Im not like sorry ');
